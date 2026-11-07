@@ -22,3 +22,13 @@
 ## Known v1 limitations
 
 No real-time sync between devices, push notifications, AI day planning or cloud backup. Focus timer is subject to browser background throttling. Data resides in browser storage; export backups regularly. Source-level syntax validated, but automated browser end-to-end and physical-device tests remain outstanding.
+
+## v2 regression checks
+
+- [ ] Quick capture: create plain task and phrases `tomorrow 8pm`, `today 18:30`, `next week`
+- [ ] Verify priority spotlight shows a pending task and Done completes it
+- [ ] Verify overdue single-occurrence items show in Needs your attention and can move to today
+- [ ] Verify completed historical occurrences are not accidentally moved
+- [ ] Verify last-seven-day completion overview updates after checking off a task
+- [ ] Confirm old v1 browser task records remain after update and offline refresh
+- [ ] Verify dark mode contrast, narrow 320 px layout, keyboard navigation and reduced-motion setting
